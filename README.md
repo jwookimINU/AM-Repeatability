@@ -4,7 +4,7 @@ Supporting data for a study of repeatability evaluation in polymer-based materia
 
 ## Study design
 
-The development experiment comprises 20 batches with nine specimens per batch. Seven surface views per specimen yield 1,260 original images. An additional 180 rotated images from an earlier workflow are excluded because the author indicated they were not needed for the latest YOLO model.
+The development experiment comprises 20 batches with nine specimens per batch. Seven surface views per specimen yield 1,260 original images.
 
 The repeatability evaluation comprises a separate ten batches with nine specimens per batch. The available evaluation data include surface-level defect ratios and specimen-level surface quality indicators.
 
