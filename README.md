@@ -8,6 +8,8 @@ The development experiment comprises 20 batches with nine specimens per batch. S
 
 The repeatability evaluation comprises a separate ten batches with nine specimens per batch. The available evaluation data include surface-level defect ratios and specimen-level surface quality indicators.
 
+See [Data package structure](DATA_PACKAGE.md) for the archive contents and the GitHub-to-Zenodo preparation sequence.
+
 ## Data files
 
 | File | Contents |
@@ -17,7 +19,7 @@ The repeatability evaluation comprises a separate ten batches with nine specimen
 | `data/surface_weights_as_stored.csv` | Seven surface area inputs used in the supplied workbook |
 | `data/image_label_inventory.csv` | Original image filenames and exact matching label filenames |
 
-The image dataset and original analysis workbooks are prepared separately for Zenodo. Add the public Zenodo DOI link here after the deposit is published. No DOI has been assigned in this repository draft.
+The image dataset and core numerical analysis data are prepared separately for Zenodo. Add the public Zenodo DOI link here after the deposit is published. No DOI has been assigned in this repository draft.
 
 ## Variables
 
@@ -31,7 +33,7 @@ The image dataset and original analysis workbooks are prepared separately for Ze
 
 ## Provenance and scope
 
-The CSV files were exported from the supplied analysis workbooks. `specimen_quality.csv` comes from `Surface Quality Indicator.xlsx`, `Sheet2!A2:C91`; surface ratios come from `SAR!A4:J93`; area inputs come from `SAR!D1:J1`. Original workbooks are retained in the Zenodo preparation package.
+The CSV files were exported from the supplied analysis workbooks. `specimen_quality.csv` comes from `Surface Quality Indicator.xlsx`, `Sheet2!A2:C91`; surface ratios come from `SAR!A4:J93`; area inputs come from `SAR!D1:J1`. The public analysis package contains curated CSV data rather than source workbooks.
 
 This preparation draft contains supplied data and documentation. It does not include the final model weights, final model configuration, final training/validation split, or raw evaluation images. Exact label matching and agreement of the final manuscript with workbook scaling, area inputs and overlap treatment remain under author review. The original numerical values have been preserved.
 
